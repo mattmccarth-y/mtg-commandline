@@ -1,0 +1,20 @@
+import sys
+import fileactions
+import libraryactions
+import pregame
+import turns
+
+#open the decklist
+deck = fileactions.deckopener(sys.argv[1])
+decklist = fileactions.dict2list(deck)
+
+#resolve mulligans
+hand, library = pregame.mulligans(deck, decklist)
+
+#start game
+field = []
+turnum = 1
+while True:
+    hand, library, field, turnum = turns.taketurn(deck,hand,library, field, turnum)
+    if turnum == 55:
+        break
