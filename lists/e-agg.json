@@ -63,7 +63,7 @@
         },
         "Mountain": {
             "name": "Mountain",
-            "amount": 4,
+            "amount": 1,
             "type": "Land",
             "subtype": "Mountain",
             "cmc": 0,
@@ -73,7 +73,7 @@
         },
         "Snow-Covered Wastes": {
             "name": "Snow-Covered Wastes",
-            "amount": 4,
+            "amount": 1,
             "type": "Land",
             "subtype": "Wastes",
             "cmc": 0,
