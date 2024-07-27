@@ -2,7 +2,7 @@ def printhand(deck, hand):
     print("### HAND ###")
     num = 1
     for card in hand:
-        print(f"{num:<2} - {card:<23} ({deck.get('cards').get(card).get('type')})")
+        print(f"{num:<2} - {card:<25} ({deck.get('cards').get(card).get('type')})")
         num += 1
     print("############\n")
     return
