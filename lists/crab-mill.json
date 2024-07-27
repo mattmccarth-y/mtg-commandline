@@ -1,0 +1,152 @@
+{
+    "deck-name": "Crab Mill",
+    "cards": {
+        "Polluted Delta": {
+            "name": "Polluted Delta",
+            "amount": 4,
+            "type": "Land"
+        },
+        "Flooded Strand": {
+            "name": "Flooded Strand",
+            "amount": 3,
+            "type": "Land"
+        },
+        "Field of Ruin": {
+            "name": "Field of Ruin",
+            "amount": 4,
+            "type": "Land"
+        },
+        "Watery Grave": {
+            "name": "Watery Grave",
+            "amount": 2,
+            "type": "Land",
+            "subtype": ["Island", "Swamp"]
+        },
+        "Undercity Sewers": {
+            "name": "Undercity Sewers",
+            "amount": 2,
+            "type": "Land",
+            "subtype": ["Island", "Swamp"]
+        },
+        "Shelldock Isle": {
+            "name": "Shelldock Isle",
+            "amount": 1,
+            "type": "Land"
+        },
+        "Oboro, Palace of the Clouds": {
+            "name": "Oboro, Palace of the Clouds",
+            "amount": 1,
+            "type": ["Legendary", "Land"]
+        },
+        "Cephalid Coliseum": {
+            "name": "Cephalid Coliseum",
+            "amount": 1,
+            "type": "Land"
+        },
+        "Island": {
+            "name": "Island",
+            "amount": 3,
+            "type": ["Basic", "Land"],
+            "subtype": "Island"
+        },
+        "Swamp": {
+            "name": "Swamp",
+            "amount": 1,
+            "type": ["Basic", "Land"],
+            "subtype": "Swamp"
+        },
+        "Hedron Crab": {
+            "name": "Hedron Crab",
+            "amount": 4,
+            "type": "Creature",
+            "subtype": "Crab",
+            "cmc": 1,
+            "cost": "u",
+            "power": 0,
+            "toughness": 2
+        },
+        "Ruin Crab": {
+            "name": "Ruin Crab",
+            "amount": 4,
+            "type": "Creature",
+            "subtype": "Crab",
+            "cmc": 1,
+            "cost": "u",
+            "power": 0,
+            "toughness": 3
+        },
+        "Archive Trap": {
+            "name": "Archive Trap",
+            "amount": 4,
+            "type": "Instant",
+            "subtype": "Trap",
+            "cmc": 5,
+            "cost": "2uu"
+        },
+        "Fractured Sanity": {
+            "name": "Fractured Sanity",
+            "amount": 4,
+            "type": "Sorcery",
+            "cmc": 3,
+            "cost": "uuu"
+        },
+        "Tasha's Hideous Laughter": {
+            "name": "Tasha's Hideous Laughter",
+            "amount": 4,
+            "type": "Sorcery",
+            "cmc": 3,
+            "cost": "1uu"
+        },
+        "Drown in the Loch": {
+            "name": "Drown in the Loch",
+            "amount": 4,
+            "type": "Instant",
+            "cmc": 2,
+            "cost": "bu"
+        },
+        "Fatal Push": {
+            "name": "Fatal Push",
+            "amount": 4,
+            "type": "Instant",
+            "cmc": 1,
+            "cost": "b"
+        },
+        "Sink into Stupor": {
+            "name": "Sink into Stupor",
+            "amount": 1,
+            "type": "Instant",
+            "cmc": 3,
+            "cost": "1uu"
+        },
+        "Preordain": {
+            "name": "Preordain",
+            "amount": 2,
+            "type": "Sorcery",
+            "cmc": 1,
+            "cost": "u"
+        },
+        "Surgical Extraction": {
+            "name": "Surgical Extraction",
+            "amount": 2,
+            "type": "Instant",
+            "cmc": 1,
+            "cost": "b"
+        },
+        "Visions of Beyond": {
+            "name": "Visions of Beyond",
+            "amount": 3,
+            "type": "Instant",
+            "cmc": 1,
+            "cost": "u"
+        },
+        "Jace, the Perfected Mind": {
+            "name": "Jace, the Perfected Mind",
+            "amount": 2,
+            "type": ["Legendary", "Planeswalker"],
+            "subtype": "Jace",
+            "cmc": 4,
+            "cost": "2uu",
+            "loyalty": 5
+        }
+    }
+}
