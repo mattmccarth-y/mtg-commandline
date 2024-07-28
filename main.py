@@ -13,8 +13,9 @@ hand, library = pregame.mulligans(deck, decklist)
 
 #start game
 field = []
+grave = []
 turnum = 1
 while True:
-    hand, library, field, turnum = turns.taketurn(deck,hand,library, field, turnum)
+    hand, library, field, grave, turnum = turns.taketurn(deck, hand, library, field, grave, turnum)
     if turnum == 55:
         break

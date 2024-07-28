@@ -23,6 +23,14 @@ def printfield(deck, field):
     print("###################\n")
     return
 
+def printgrave(deck, grave):
+    print("### GRAVEYARD ###")
+    for card in grave:
+        types = deck.get("cards").get(card).get("type")
+        print(f"{card:<25} ({utils.list2string(types)})")
+    print("#################\n")
+    return
+
 def printlibrary(deck, library):
     print("### LIBRARY ###")
     for card in library:
