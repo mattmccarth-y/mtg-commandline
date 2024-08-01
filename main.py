@@ -1,12 +1,13 @@
 import sys
 import fileactions
 import libraryactions
+import utils
 import pregame
 import turns
 
 #open the decklist
 deck = fileactions.deckopener(sys.argv[1])
-decklist = fileactions.dict2list(deck)
+decklist = utils.dict2list(deck)
 
 #resolve mulligans
 hand, library = pregame.mulligans(deck, decklist)
