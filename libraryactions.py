@@ -13,9 +13,7 @@ def drawcards(hand, library, num=1):
 def bottomcards(hand, library, cards):
     cards = list(map(int, cards))
     cards.sort()
-    print(cards)
     for i in range(1,len(cards)+1):
-        print(hand)
         library.append(hand[cards[i-1]-i])
         del(hand[cards[i-1]-i])
     return hand, library

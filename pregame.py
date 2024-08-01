@@ -8,7 +8,7 @@ def mulligans(deck, decklist, keep=False, mull=0, remove=[]):
     while keep == False:
         os.system("clear")
         hand = []
-        print("### DRAW ###\n")
+        print(f"{' DRAW ':#^75}\n")
         libraryactions.shuffle(library)
         hand, library = libraryactions.drawcards(hand, library, num=7)
         prints.printhand(deck, hand)
