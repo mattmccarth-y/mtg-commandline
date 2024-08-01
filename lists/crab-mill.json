@@ -14,46 +14,54 @@
         "Field of Ruin": {
             "name": "Field of Ruin",
             "amount": 4,
-            "type": "Land"
+            "type": "Land",
+            "produces": "{c}"
         },
         "Watery Grave": {
             "name": "Watery Grave",
             "amount": 2,
             "type": "Land",
-            "subtype": ["Island", "Swamp"]
+            "subtype": ["Island", "Swamp"],
+            "produces": "{u}/{b}"
         },
         "Undercity Sewers": {
             "name": "Undercity Sewers",
             "amount": 2,
             "type": "Land",
-            "subtype": ["Island", "Swamp"]
+            "subtype": ["Island", "Swamp"],
+            "produces": "{u}/{b}"
         },
         "Shelldock Isle": {
             "name": "Shelldock Isle",
             "amount": 1,
-            "type": "Land"
+            "type": "Land",
+            "produces": "{u}"
         },
         "Oboro, Palace of the Clouds": {
             "name": "Oboro, Palace of the Clouds",
             "amount": 1,
-            "type": ["Legendary", "Land"]
+            "type": ["Legendary", "Land"],
+            "produces": "{u}"
         },
         "Cephalid Coliseum": {
             "name": "Cephalid Coliseum",
             "amount": 1,
-            "type": "Land"
+            "type": "Land",
+            "produces": "{u}"
         },
         "Island": {
             "name": "Island",
             "amount": 3,
             "type": ["Basic", "Land"],
-            "subtype": "Island"
+            "subtype": "Island",
+            "produces": "{u}"
         },
         "Swamp": {
             "name": "Swamp",
             "amount": 1,
             "type": ["Basic", "Land"],
-            "subtype": "Swamp"
+            "subtype": "Swamp",
+            "produces": "{b}"
         },
         "Hedron Crab": {
             "name": "Hedron Crab",
@@ -61,7 +69,7 @@
             "type": "Creature",
             "subtype": "Crab",
             "cmc": 1,
-            "cost": "u",
+            "cost": "{u}",
             "power": 0,
             "toughness": 2
         },
@@ -71,7 +79,7 @@
             "type": "Creature",
             "subtype": "Crab",
             "cmc": 1,
-            "cost": "u",
+            "cost": "{u}",
             "power": 0,
             "toughness": 3
         },
@@ -81,63 +89,63 @@
             "type": "Instant",
             "subtype": "Trap",
             "cmc": 5,
-            "cost": "2uu"
+            "cost": "{2}{u}{u}"
         },
         "Fractured Sanity": {
             "name": "Fractured Sanity",
             "amount": 4,
             "type": "Sorcery",
             "cmc": 3,
-            "cost": "uuu"
+            "cost": "{u}{u}{u}"
         },
         "Tasha's Hideous Laughter": {
             "name": "Tasha's Hideous Laughter",
             "amount": 4,
             "type": "Sorcery",
             "cmc": 3,
-            "cost": "1uu"
+            "cost": "{1}{u}{u}"
         },
         "Drown in the Loch": {
             "name": "Drown in the Loch",
             "amount": 4,
             "type": "Instant",
             "cmc": 2,
-            "cost": "bu"
+            "cost": "{b}{u}"
         },
         "Fatal Push": {
             "name": "Fatal Push",
             "amount": 4,
             "type": "Instant",
             "cmc": 1,
-            "cost": "b"
+            "cost": "{b}"
         },
         "Sink into Stupor": {
             "name": "Sink into Stupor",
             "amount": 1,
             "type": "Instant",
             "cmc": 3,
-            "cost": "1uu"
+            "cost": "{1}{u}{u}"
         },
         "Preordain": {
             "name": "Preordain",
             "amount": 2,
             "type": "Sorcery",
             "cmc": 1,
-            "cost": "u"
+            "cost": "{u}"
         },
         "Surgical Extraction": {
             "name": "Surgical Extraction",
             "amount": 2,
             "type": "Instant",
             "cmc": 1,
-            "cost": "b"
+            "cost": "{b}"
         },
         "Visions of Beyond": {
             "name": "Visions of Beyond",
             "amount": 3,
             "type": "Instant",
             "cmc": 1,
-            "cost": "u"
+            "cost": "{u}"
         },
         "Jace, the Perfected Mind": {
             "name": "Jace, the Perfected Mind",
@@ -145,7 +153,7 @@
             "type": ["Legendary", "Planeswalker"],
             "subtype": "Jace",
             "cmc": 4,
-            "cost": "2uu",
+            "cost": "{2}{u}{u}",
             "loyalty": 5
         }
     }

@@ -4,44 +4,50 @@
         "Ugin's Labyrinth": {
             "name": "Ugin's Labyrinth",
             "amount": 4,
-            "type": "Land"
+            "type": "Land",
+            "produces": "{c}{c}"
         },
         "Eldrazi Temple": {
             "name": "Eldrazi Temple",
             "amount": 4,
-            "type": "Land"
+            "type": "Land",
+            "produces": "{c}/{c}{c}"
         },
         "Secluded Courtyard": {
             "name": "Secluded Courtyard",
             "amount": 4,
-            "type": "Land"
+            "type": "Land",
+            "produces": "{c}/{w}/{u}/{b}/{r}/{g}"
         },
         "Unclaimed Territory": {
             "name": "Unclaimed Territory",
             "amount": 4,
-            "type": "Land"
+            "type": "Land",
+            "produces": "{c}/{w}/{u}/{b}/{r}/{g}"
         },
         "Corrupted Crossroads": {
             "name": "Corrupted Crossroads",
             "amount": 4,
-            "type": "Land"
+            "type": "Land",
+            "produces": "{c}/{w}/{u}/{b}/{r}/{g}"
         },
-        "Island": {
-            "name": "Island",
+        "Karplusan Forest": {
+            "name": "Karplusan Forest",
             "amount": 1,
-            "type": ["Basic", "Land"],
-            "subtype": "Island"
+            "type": "Land",
+            "produces": "{c}/{u}/{r}"
         },
-        "Mountain": {
-            "name": "Mountain",
+        "Shivan Reef": {
+            "name": "Shivan Reef",
             "amount": 1,
-            "type": ["Basic", "Land"],
-            "subtype": "Mountain"
+            "type": "Land",
+            "produces": "{c}/{r}/{g}"
         },
         "Snow-Covered Wastes": {
             "name": "Snow-Covered Wastes",
             "amount": 1,
-            "type": ["Basic", "Snow", "Land"]
+            "type": ["Basic", "Snow", "Land"],
+            "produces": "{c}"
         },
         "It That Heralds the End": {
             "name": "It That Heralds the End",
@@ -49,7 +55,7 @@
             "type": "Creature",
             "subtype": ["Eldrazi", "Drone"],
             "cmc": 2,
-            "cost": "1c",
+            "cost": "{1}{c}",
             "power": 2,
             "toughness": 2
         },
@@ -59,7 +65,7 @@
             "type": "Creature",
             "subtype": ["Eldrazi", "Wizard"],
             "cmc": 2,
-            "cost": "1c",
+            "cost": "{1}{c}",
             "power": 2,
             "toughness": 2
         },
@@ -69,7 +75,7 @@
             "type": "Creature",
             "subtype": "Eldrazi",
             "cmc": 2,
-            "cost": "2",
+            "cost": "{2}",
             "power": 2,
             "toughness": 1
         },
@@ -79,7 +85,7 @@
             "type": "Creature",
             "subtype": "Eldrazi",
             "cmc": 3,
-            "cost": "2c",
+            "cost": "{2}{c}",
             "power": 3,
             "toughness": 2
         },
@@ -89,7 +95,7 @@
             "type": "Creature",
             "subtype": ["Eldrazi", "Drone"],
             "cmc": 3,
-            "cost": "2c",
+            "cost": "{2}{c}",
             "power": 2,
             "toughness": 2
         },
@@ -99,7 +105,7 @@
             "type": "Creature",
             "subtype": "Eldrazi",
             "cmc": 3,
-            "cost": "1cr",
+            "cost": "{1}{c}{r}",
             "power": 3,
             "toughness": 3
         },
@@ -109,7 +115,7 @@
             "type": "Creature",
             "subtype": "Eldrazi",
             "cmc": 4,
-            "cost": "3c",
+            "cost": "{3}{c}",
             "power": 4,
             "toughness": 4
         },
@@ -119,7 +125,7 @@
             "type": "Creature",
             "subtype": ["Eldrazi", "Fungus"],
             "cmc": 4,
-            "cost": "3g",
+            "cost": "{3}{g}",
             "power": 3,
             "toughness": 3
         },
@@ -129,7 +135,7 @@
             "type": "Creature",
             "subtype": "Eldrazi",
             "cmc": 5,
-            "cost": "4c",
+            "cost": "{4}{c}",
             "power": 5,
             "toughness": 5
         },
@@ -139,7 +145,7 @@
             "type": ["Tribal", "Sorcery"],
             "subtype": "Eldrazi",
             "cmc": 7,
-            "cost": "7"
+            "cost": "{7}"
         },
         "Nulldrifter": {
             "name": "Nulldrifter",
@@ -147,7 +153,7 @@
             "type": "Creature",
             "subtype": ["Eldrazi", "Elemental"],
             "cmc": 7,
-            "cost": "7",
+            "cost": "{7}",
             "power": 4,
             "toughness": 4
         },
@@ -157,7 +163,7 @@
             "type": "Creature",
             "subtype": "Eldrazi",
             "cmc": 7,
-            "cost": "5cc",
+            "cost": "{5}{c}{c}",
             "power": 6,
             "toughness": 6
         },
@@ -167,7 +173,7 @@
             "type": ["Tribal", "Instant"],
             "subtype": "Eldrazi",
             "cmc": 2,
-            "cost": "xcc"
+            "cost": "{x}{c}{c}"
         }
     }
 }
